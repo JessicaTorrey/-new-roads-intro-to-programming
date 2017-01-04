@@ -22,25 +22,25 @@ public class CardTester{
     c2.setSuit("hearts");
     c2.setRank('7');
     
-    System.out.println(c.toString());
+    System.out.println(c2.toString());
     
     Card c3 = new Card();
     c3.setColor("black");
     c3.setSuit("clubs");
     c3.setRank('J');
-    System.out.println(c.toString());
+    System.out.println(c3.toString());
     
     Card c4 = new Card();
     c4.setColor("red");
     c4.setSuit("dimond");
     c4.setRank('3');
-    System.out.println(c.toString());
+    System.out.println(c4.toString());
     
     Card c5 = new Card();
     c5.setColor("black");
     c5.setSuit("spade");
     c5.setRank('K');
-    System.out.println(c.toString());
+    System.out.println(c5.toString());
       
   }
   
